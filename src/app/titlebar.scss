@@ -29,7 +29,7 @@
       content: cv('const:text.titlebar.main');
       color: hsla(0, 0%, 100%, 0.7);
       font-size: 14px;
-
+      text-shadow: 0 0 3px #000;
     }
     &:after {
       content: cv('const:text.titlebar.version');
@@ -93,6 +93,7 @@
     content: cv('const:text.titlebar.short');
     color: $main-color;
     font-weight: 700;
+    text-shadow: 0 0 3px;
   }
   &:after {
     content: '#{$version}';

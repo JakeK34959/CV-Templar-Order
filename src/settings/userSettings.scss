@@ -33,19 +33,20 @@
 .editingContainer-1_nnqZ {
   background-color: transparent;
 }
-.improvedUpsellContainer-GX81ui {
+.premiumFeatureBorder-3vL7bn {
 	background: hsla(0, 0%, 0%, .4);
 	border-color: hsl(302,100%,72.5%);
 }
-.improvedUpsellSection-camPo1 {
+.background-3N0xBT {
 	background: transparent;
 }
 .upsellOverlayContainer-3NMgTS {
 	background: hsla(0, 0%, 0%, .4);
 	border-color: hsl(302,100%,72.5%);
 }
-.theme-dark .upsellOverlay-3sCO8V {
-	background: hsla(0, 0%, 0%, .4);;
+.theme-dark .upsellOverlay-3sCO8V,
+.upsellContainer-TwfTaF {
+	background: hsla(0, 0%, 0%, .4);
 }
 
 // USER SETTINGS CUSTOMIZATION
@@ -53,7 +54,7 @@
   background: transparent;
   // BODY
   %userPopoutSettingsOverlayBackground,
-  %userPopoutprofileBadgeContainer {
+  %userPopoutProfileBadges {
     background: cv('bg.popout.overlay');
   }
 }
@@ -82,7 +83,7 @@
   background-color: rgba(0, 0, 0, 0.4);
   border-color: hsla(0, 0%, 100%, 0.07);
 }
-.accountButtonInner-33vCDY {
+.accountButtonInner-33vCDY, .accountBtnInner-1DCgBm {
   background-color: hsla(0, 0%, 100%, 0.05);
   &:hover {
     background-color: hsla(0, 0%, 100%, 0.07);
@@ -122,14 +123,10 @@
   }
 }
 
-// DISCORD NITRO
-%themeDark {
-  .feature-2IUcBI {
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-}
-%nitroHomePage {
-  background-color: transparent;
+// NITRO
+.bigPerkCard-1uwmWV,
+.smallPerkCard-2sX_-- {
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 // SUBSCRIPTIONS

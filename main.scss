@@ -1,7 +1,7 @@
-$version: 'HR-8.5';
+$version: '6.3.0';
 
 /* ### ClearVision v#{$version} by the ClearVision team ### */
-//Changed by: Jake34959
+
 // SELECTORS
 @import 'lib/selectors/selectorPlaceholders';
 
@@ -129,7 +129,6 @@ $version: 'HR-8.5';
 @import 'src/popouts/messagesPopout';
 @import 'src/popouts/otherPopouts';
 @import 'src/popouts/searchPopout';
-@import 'src/popouts/statusPicker';
 @import 'src/popouts/stickers';
 @import 'src/popouts/threadPopout';
 @import 'src/popouts/userPopout';
